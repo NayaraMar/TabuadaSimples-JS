@@ -1,0 +1,62 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font: normal 1.5rem cambria;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    background-color: rgb(252, 255, 203);
+}
+
+#main-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f39696;
+    gap: 8px;
+    width: 50vw;
+    min-width: 240px;
+    max-width: 500px;
+    height: auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px #3f3f3f;
+}
+
+#entrada {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.8rem;
+}
+
+#valor {
+    width: 15vw;
+}
+
+
+#tabuada {
+    text-align: center;
+    background-color: #d1c7c7;
+    border-radius: 12px;
+}
+
+footer {
+    text-align: center;
+    color: #000;
+    font: normal 1.5rem cambria;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
